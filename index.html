@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Park Dental Center | World-Class Dental Care in Dubai</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Park Dental Center (مركز بارك لطب وجراحة الأسنان) offers world-class dental care in the heart of Dubai with expert dentists and advanced technology." />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .backdrop-blur-custom {
+      backdrop-filter: blur(10px);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900 antialiased">
+
+  <header class="fixed top-0 inset-x-0 z-40 bg-white/90 backdrop-blur-custom border-b border-gray-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <a href="#top" class="flex items-center space-x-3">
+          <img src="logo.jpg" alt="Park Dental Center Logo" class="h-12 w-auto rounded-md shadow-sm" />
+          <div class="flex flex-col">
+            <span class="text-sm font-semibold tracking-wide text-teal-600 uppercase">Park Dental Center</span>
+            <span class="text-xs text-gray-600">مركز بارك لطب وجراحة الأسنان | رعاية أسنان متميزة في دبي</span>
+          </div>
+        </a>
+
+        <nav class="hidden md:flex items-center space-x-8 text-sm font-medium">
+          <a href="#about" class="text-gray-700 hover:text-teal-500 transition">About</a>
+          <a href="#services" class="text-gray-700 hover:text-teal-500 transition">Services</a>
+          <a href="#team" class="text-gray-700 hover:text-teal-500 transition">Our Doctors</a>
+          <a href="#reviews" class="text-gray-700 hover:text-teal-500 transition">Reviews</a>
+          <a href="#contact" class="text-gray-700 hover:text-teal-500 transition">Contact</a>
+
+          <button id="headerWhatsAppBtn" class="inline-flex items-center px-4 py-2 rounded-full bg-teal-600 text-white text-sm font-semibold shadow-lg hover:bg-teal-700 transform hover:-translate-y-0.5 transition">
+            Book via WhatsApp
+          </button>
+        </nav>
+
+        <button id="mobileMenuToggle" class="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-teal-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-teal-500">
+          <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path id="mobileMenuIconOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16" />
+            <path id="mobileMenuIconClose" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobileMenu" class="md:hidden hidden border-t border-gray-200 bg-white">
+      <div class="px-4 pt-3 pb-4 space-y-2 text-sm font-medium">
+        <a href="#about" class="block py-2 text-gray-700 hover:text-teal-500">About</a>
+        <a href="#services" class="block py-2 text-gray-700 hover:text-teal-500">Services</a>
+        <a href="#team" class="block py-2 text-gray-700 hover:text-teal-500">Our Doctors</a>
+        <a href="#reviews" class="block py-2 text-gray-700 hover:text-teal-500">Reviews</a>
+        <a href="#contact" class="block py-2 text-gray-700 hover:text-teal-500">Contact</a>
+
+        <button id="mobileWhatsAppBtn" class="w-full mt-2 inline-flex items-center justify-center px-4 py-2 rounded-full bg-teal-600 text-white text-sm font-semibold shadow-lg hover:bg-teal-700 transition">
+          Book via WhatsApp
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top" class="pt-24">
+    <section class="bg-gradient-to-br from-blue-950 via-slate-900 to-teal-900 text-white">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <p class="text-sm font-semibold tracking-[0.2em] uppercase text-teal-300 mb-4">Dubai • Premium Dental Care</p>
+          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight mb-4">
+            World-Class Dental Care in the Heart of Dubai
+          </h1>
+          <p class="text-base sm:text-lg text-slate-100/90 mb-6">
+            Park Dental Center (مركز بارك لطب وجراحة الأسنان) combines advanced technology, highly specialized dentists, and a calm, luxurious environment to deliver painless, precise, and long-lasting dental treatments for you and your family.
+          </p>
+          <p class="text-sm text-slate-200 mb-6">
+            From complex root canal treatments and dental implants to smile makeovers and cosmetic dentistry, our team in Al Safa, Dubai, is dedicated to clear explanations, comfort, and outstanding results.
+          </p>
+          <div class="flex flex-wrap items-center gap-4 mb-8">
+            <button id="heroWhatsAppBtn" class="inline-flex items-center px-6 py-3 rounded-full bg-teal-500 text-white text-sm sm:text-base font-semibold shadow-xl hover:bg-teal-400 transform hover:-translate-y-0.5 transition">
+              Book an Appointment via WhatsApp
+              <svg class="ml-2 h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M20.52 3.48A11.77 11.77 0 0012 0 11.94 11.94 0 000 12a11.77 11.77 0 003.48 8.52A11.94 11.94 0 0012 24a11.77 11.77 0 008.52-3.48A11.94 11.94 0 0024 12a11.77 11.77 0 00-3.48-8.52zM12 21.82a9.7 9.7 0 01-5-1.38l-3.32.87.89-3.24A9.76 9.76 0 012.18 12 9.82 9.82 0 0112 2.18 9.76 9.76 0 0121.82 12 9.82 9.82 0 0112 21.82zm5.12-7.27c-.28-.14-1.64-.81-1.89-.9s-.44-.14-.63.14-.72.9-.89 1.09-.33.21-.61.07a7.93 7.93 0 01-2.33-1.44 8.73 8.73 0 01-1.62-2c-.17-.28 0-.43.13-.57s.28-.33.42-.5a1.9 1.9 0 00.28-.47.51.51 0 000-.49c-.07-.14-.63-1.51-.86-2.07s-.46-.48-.63-.49h-.54a1 1 0 00-.71.33 3 3 0 00-.94 2.21 5.24 5.24 0 001.09 2.76 11.9 11.9 0 004.57 4 5.23 5.23 0 002.76 1 2.39 2.39 0 001.64-1 2 2 0 00.14-1.09c-.14-.21-.25-.28-.53-.42z" />
+              </svg>
+            </button>
+
+            <div class="flex items-center space-x-3 bg-white/10 border border-teal-300/40 rounded-2xl px-4 py-3">
+              <div class="flex items-center text-yellow-300">
+                <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.49 6.91l6.564-.955L10 0l2.946 5.955 6.564.955-4.755 4.635 1.123 6.545z"/></svg>
+                <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.49 6.91l6.564-.955L10 0l2.946 5.955 6.564.955-4.755 4.635 1.123 6.545z"/></svg>
+                <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.49 6.91l6.564-.955L10 0l2.946 5.955 6.564.955-4.755 4.635 1.123 6.545z"/></svg>
+                <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.49 6.91l6.564-.955L10 0l2.946 5.955 6.564.955-4.755 4.635 1.123 6.545z"/></svg>
+                <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.49 6.91l6.564-.955L10 0l2.946 5.955 6.564.955-4.755 4.635 1.123 6.545z"/></svg>
+              </div>
+              <div class="text-xs leading-tight">
+                <p class="font-semibold text-white">4.9 out of 5 Stars</p>
+                <p class="text-teal-100">Based on 343 Google Reviews</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-3 gap-4 text-xs sm:text-sm text-slate-100">
+            <div class="bg-white/5 border border-teal-300/30 rounded-xl p-3">
+              <p class="font-semibold text-teal-200 mb-1">Advanced Technology</p>
+              <p>Latest scanning and imaging systems for precise diagnosis and painless treatment planning.</p>
+            </div>
+            <div class="bg-white/5 border border-teal-300/30 rounded-xl p-3">
+              <p class="font-semibold text-teal-200 mb-1">Specialized Dentists</p>
+              <p>Expert endodontics, implants, cosmetic dentistry, and comprehensive family dental care.</p>
+            </div>
+            <div class="bg-white/5 border border-teal-300/30 rounded-xl p-3">
+              <p class="font-semibold text-teal-200 mb-1">Prime Dubai Location</p>
+              <p>Located in Al Safa 1, easily accessible from key areas across Dubai.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative">
+          <div class="absolute -top-6 -right-4 w-40 h-40 bg-teal-500/20 rounded-full blur-3xl"></div>
+          <div class="absolute -bottom-10 -left-6 w-48 h-48 bg-blue-500/20 rounded-full blur-3xl"></div>
+
+          <div class="relative bg-white/5 border border-teal-200/40 rounded-3xl p-6 sm:p-8 shadow-2xl backdrop-blur-custom">
+            <h2 class="text-lg sm:text-xl font-semibold mb-4">Premium Dental Experience</h2>
+            <p class="text-sm text-slate-100 mb-4">
+              Experience a calm, boutique-style dental clinic where every detail—from diagnosis to treatment—is designed around your comfort and confidence.
+            </p>
+
+            <ul class="space-y-2 text-sm text-slate-100 mb-6">
+              <li class="flex items-start"><span class="mt-1 h-2 w-2 rounded-full bg-teal-400 mr-2"></span>Pain-free root canal treatments with a methodical, technology-driven approach.</li>
+              <li class="flex items-start"><span class="mt-1 h-2 w-2 rounded-full bg-teal-400 mr-2"></span>Dental implants with minimal swelling, fast recovery, and high-quality materials.</li>
+              <li class="flex items-start"><span class="mt-1 h-2 w-2 rounded-full bg-teal-400 mr-2"></span>Clear explanations at every step so you always understand your treatment plan.</li>
+            </ul>
+
+            <div class="bg-slate-900/60 border border-teal-300/40 rounded-2xl p-4 text-xs text-slate-100">
+              <p class="font-semibold text-teal-200 mb-1">Clinic Contact</p>
+              <p>Phone: <a href="tel:+97143466111" class="text-teal-300 hover:text-teal-200">+971 4 346 6111</a></p>
+              <p class="mt-1">Address: 22A St - Al Safa 1 - Al Safa - Dubai - United Arab Emirates</p>
+              <p class="mt-1">Plus Code: 56GV+CV Dubai</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-16 bg-gray-50">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-12 items-start">
+          <div>
+            <h2 class="text-2xl sm:text-3xl font-bold text-blue-950 mb-4">A Trusted Dental Center in Dubai</h2>
+            <p class="text-gray-700 mb-4">
+              Park Dental Center is known for its meticulous approach to diagnosis, use of the latest scanning technology, and a strong focus on patient comfort. Patients consistently describe their treatments as relaxing, pain free, and clearly explained.
+            </p>
+            <p class="text-gray-700 mb-4">
+              Whether you require a complex root canal, dental implants, crown fitting, or a full smile makeover, our team of specialized dentists in Dubai ensures that every procedure is tailored to your needs with a premium standard of care.
+            </p>
+            <p class="text-gray-700">
+              Our clinic environment is designed to feel calm, clean, and luxurious—helping you feel at ease from the moment you arrive until your treatment is complete.
+            </p>
+          </div>
+
+          <div class="space-y-4">
+            <div class="bg-white rounded-2xl shadow-md border border-gray-100 p-5 flex items-center justify-between">
+              <div>
+                <p class="text-xs font-semibold text-teal-600 uppercase tracking-wide mb-1">Google Maps Rating</p>
+                <p class="text-lg font-bold text-blue-950">4.9 out of 5 Stars</p>
+                <p class="text-sm text-gray-600">Based on 343 Reviews</p>
+              </div>
+
+              <div class="flex items-center space-x-1 text-yellow-400">
+                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.49 6.91l6.564-.955L10 0l2.946 5.955 6.564.955-4.755 4.635 1.123 6.545z"/></svg>
+                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.49 6.91l6.564-.955L10 0l2.946 5.955 6.564.955-4.755 4.635 1.123 6.545z"/></svg>
+                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.49 6.91l6.564-.955L10 0l2.946 5.955 6.564.955-4.755 4.635 1.123 6.545z"/></svg>
+                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.49 6.91l6.564-.955L10 0l2.946 5.955 6.564.955-4.755 4.635 1.123 6.545z"/></svg>
+                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.49 6.91l6.564-.955L10 0l2.946 5.955 6.564.955-4.755 4.635 1.123 6.545z"/></svg>
+              </div>
+            </div>
+
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div class="bg-white rounded-2xl shadow-md border border-gray-100 p-4">
+                <p class="text-sm font-semibold text-blue-950 mb-1">Comfort-Focused</p>
+                <p class="text-xs text-gray-600">Treatments described by patients as relaxing and pain free, even for complex procedures.</p>
+              </div>
+
+              <div class="bg-white rounded-2xl shadow-md border border-gray-100 p-4">
+                <p class="text-sm font-semibold text-blue-950 mb-1">Transparent Communication</p>
+                <p class="text-xs text-gray-600">Dentists keep you informed at every step with clear explanations and realistic expectations.</p>
+              </div>
+
+              <div class="bg-white rounded-2xl shadow-md border border-gray-100 p-4">
+                <p class="text-sm font-semibold text-blue-950 mb-1">High-Quality Materials</p>
+                <p class="text-xs text-gray-600">Implants, crowns, and restorations use top-grade materials for durability and aesthetics.</p>
+              </div>
+
+              <div class="bg-white rounded-2xl shadow-md border border-gray-100 p-4">
+                <p class="text-sm font-semibold text-blue-950 mb-1">Latest Technology</p>
+                <p class="text-xs text-gray-600">Modern scanning and imaging tools support accurate diagnosis and precise treatment planning.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="py-16 bg-white">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between mb-10">
+          <div>
+            <h2 class="text-2xl sm:text-3xl font-bold text-blue-950 mb-3">Comprehensive Dental Services</h2>
+            <p class="text-gray-700 max-w-2xl">
+              Park Dental Center offers a full range of treatments—from root canal therapy and implants to cosmetic smile makeovers—delivered with a focus on painless care and clear communication.
+            </p>
+          </div>
+
+          <button id="servicesWhatsAppBtn" class="mt-4 sm:mt-0 inline-flex items-center px-5 py-2.5 rounded-full bg-blue-950 text-white text-sm font-semibold shadow-md hover:bg-blue-900 transition">
+            Discuss Your Case on WhatsApp
+          </button>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="border border-gray-100 rounded-2xl shadow-sm p-5 bg-gray-50">
+            <h3 class="text-lg font-semibold text-blue-950 mb-2">Root Canal Treatment</h3>
+            <p class="text-sm text-gray-700 mb-3">
+              Expert endodontic care with a methodical, technology-assisted approach for precise, pain free root canal treatments.
+            </p>
+            <ul class="text-xs text-gray-600 space-y-1">
+              <li>• Advanced scanning for accurate diagnosis</li>
+              <li>• Focus on comfort and relaxation</li>
+              <li>• Preservation of natural teeth whenever possible</li>
+            </ul>
+          </div>
+
+          <div class="border border-gray-100 rounded-2xl shadow-sm p-5 bg-gray-50">
